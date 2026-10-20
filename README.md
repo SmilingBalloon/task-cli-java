@@ -26,15 +26,25 @@ This is a simple interactive command-line application for managing tasks. You ca
 2. **Compile the source code:**
 
    Run this command from the project root:
-
-   ```bash
-   javac -d . config/TaskConfig.java dto/Task.java dto/TaskStatus.java main/util/SimpleJsonParser.java main/util/StringHelper.java main/cmd/HandleUserInput.java main/TaskCLI.java
+   ```ps
+      javac -d out `
+         config/TaskConfig.java `
+         dto/Task.java `
+         dto/TaskStatus.java `
+         main/util/SimpleJsonParser.java `
+         main/util/StringHelper.java `
+         main/cmd/HandleUserInput.java `
+         main/TaskCLI.java
+   ```
+   Or:
+   ```ps
+   javac -d out config/TaskConfig.java dto/Task.java dto/TaskStatus.java main/util/SimpleJsonParser.java main/util/StringHelper.java main/cmd/HandleUserInput.java main/TaskCLI.java
    ```
 
 3. **Run the application:**
 
    ```bash
-   java main.TaskCLI
+   java -cp out main.TaskCLI
    ```
 
    The application displays a `>` prompt. Type `quit` to save the current tasks and exit.
