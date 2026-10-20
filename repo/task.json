@@ -1,0 +1,5 @@
+[
+{"id":"1","description":"Build Task-CLI with Java","status":"done","createdAt":"2026-10-17T11:26:09.554543100Z","updatedAt":"2026-10-17T11:26:09.554543100Z"},
+{"id":"2","description":"Finish Task-CLI","status":"todo","createdAt":"2026-10-17T11:26:21.623856400Z","updatedAt":"2026-10-19T05:22:48.768281Z"},
+{"id":"3","description":"Refactor String helper","status":"in-progress","createdAt":"2026-10-19T05:21:35.729464500Z","updatedAt":"2026-10-19T05:21:35.729464500Z"}
+]
