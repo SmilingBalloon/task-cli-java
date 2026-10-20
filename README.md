@@ -20,7 +20,7 @@ This is a simple interactive command-line application for managing tasks. You ca
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/SmilingBalloon/task-cli-java.git
+   git clone https://github.com/SmilingBalloon/task-cli-java
    ```
 
 2. **Compile the source code:**
