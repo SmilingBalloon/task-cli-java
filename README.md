@@ -36,7 +36,7 @@ This is a simple interactive command-line application for managing tasks. You ca
          main/cmd/HandleUserInput.java `
          main/TaskCLI.java
    ```
-   Or:
+   Or one line command:
    ```ps
    javac -d out config/TaskConfig.java dto/Task.java dto/TaskStatus.java main/util/SimpleJsonParser.java main/util/StringHelper.java main/cmd/HandleUserInput.java main/TaskCLI.java
    ```
