@@ -2,6 +2,8 @@
 
 This is a simple interactive command-line application for managing tasks. You can add, update, delete, mark, and list tasks directly from the terminal.
 
+Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
+
 ## Features
 
 - **Add a task:** Add a new task with a description.
