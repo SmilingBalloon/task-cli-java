@@ -20,7 +20,7 @@ public enum TaskStatus {
             case "todo" -> TODO;
             case "in-progress" -> IN_PROGRESS;
             case "done" -> DONE;
-            default -> throw new IllegalArgumentException("[HANDLER] Invalid task status");
+            default -> throw new IllegalArgumentException("Invalid task status");
         };
     }
 }
