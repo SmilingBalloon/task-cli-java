@@ -129,6 +129,8 @@ public class HandleUserInput {
 
     void handleAddCommand(String description) {
         int id = config.getCurrentId();
+        if (id == -1)
+            throw new IllegalArgumentException("Invalid id in properties");
         taskList.put(Integer.valueOf(id), new Task(id, description));
         System.out.println("[HANDLER] Task added successfully (ID: " + id + ")");
     }
